@@ -5,7 +5,7 @@ def test():
     return "i'm anas and this is mlops a4"
 
 
-def pretty_table_example() -> str:
+def table_test() -> str:
     df = pd.DataFrame(
         [
             {"model": "baseline", "accuracy": 0.87, "f1": 0.84},
@@ -19,4 +19,4 @@ def pretty_table_example() -> str:
 if __name__ == "__main__":
     print(test())
     print("\nPretty metrics table:\n")
-    print(pretty_table_example())
+    print(table_test())
